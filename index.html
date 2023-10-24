@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Financial Modeling Portfolio </title>
+</head>
+<body>
+    <!-- This is the div where the Excel document will be embedded -->
+    <div id="myExcelDiv" style="width: 98%; height: 100%; position: absolute; top: 0; left:0; right: 0; bottom: 0; margin: auto"></div>
+
+    <!-- JavaScript code to embed the Excel document -->
+    <script type="text/javascript">
+        // This code will be provided by Microsoft Office Excel Online
+        // Replace it with your actual script from OneDrive
+        var excelEmbedCode = "https://onedrive.live.com/embed?resid=FE309C42B4F94651%21106&authkey=%21AAb1xr13PJiMmns&em=3&wdDivId=%22myExcelDiv%22&wdHideHeaders=1"; 
+
+        // Create a new script element
+        var script = document.createElement('script');
+
+        // Set the src attribute of the script element to the OneDrive URL
+        script.src = excelEmbedCode;
+
+        // Append the script element to the body of the document
+        document.body.appendChild(script);
+    </script>
+</body>
+</html>
